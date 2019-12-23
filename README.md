@@ -3,6 +3,7 @@ testapp_IP = 34.76.198.217
 testapp_port = 9292
 
 #gcloud + satrtup_script
+
 gcloud compute instances create reddit-app \
 --zone:europe-west1-b \
 --boot-disk-size=10GB \
@@ -14,6 +15,7 @@ gcloud compute instances create reddit-app \
 --metadata-from-file startup-script=startup_script.sh
 
 #gcloud + firewall_rule
+
 gcloud compute \
 --project=infra-262607 firewall-rules create default-puma-server \
 --direction=INGRESS \
