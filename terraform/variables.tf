@@ -25,3 +25,7 @@ variable public_key {
   # Описание переменной
   description = "public_key"
 }
+variable instance_count {
+  description = "number of instances"
+  default     = "1"
+}

@@ -1,6 +1,6 @@
 terraform {
-  # Версия terraform
-  required_version = "0.12.18"
+  #Версия terraform
+  required_version = "0.12.8"
 }
 
 provider "google" {
@@ -10,7 +10,8 @@ provider "google" {
 }
 
 resource "google_compute_instance" "app" {
-  name         = "reddit-app"
+  count        = var.instance_count
+  name         = "reddit-app${count.index + 1}"
   machine_type = "g1-small"
   zone         = var.zone
   tags         = ["reddit-app"]
@@ -22,8 +23,8 @@ resource "google_compute_instance" "app" {
   }
   metadata = {
     ssh-keys = <<EOF
+    appuser:${file(var.public_key_path)}
     appuser1:${file(var.public_key_path)}
-    appuser2:${file(var.public_key_path)}
     EOF
   }
   network_interface {
@@ -62,5 +63,5 @@ resource "google_compute_firewall" "firewall_puma" {
 }
 resource "google_compute_project_metadata_item" "ssh-keys" {
   key   = "ssh-keys"
-  value = "appuser_web:${var.public_key}"
+  value = "appuser:${var.public_key}"
 }
