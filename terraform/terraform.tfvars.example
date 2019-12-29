@@ -1,0 +1,6 @@
+  project          = "infra-262607"
+  public_key_path  = "~/.ssh/appuser.pub"
+  disk_image       = "reddit-base"
+  private_key_path = "~/.ssh/appuser"
+  zone             = "europe-west1-b"
+  public_key       = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDgCNqcfJJf4UifcDH1f2fbEZc9rSSRnz8any4v02ljsouH+TT7TVdlz/X8ryXoW+ZEiQngFGLeUKvyrQzzacq9CrB5vjjmjmd/UQP+Yegf1DPANcf0qluDLVenCbdhL5kHApsHyUGFWYxiqdX4f3L84iVAyRCMDqqTz0DWGDGMnBT7+132oGLv264XwPm15vB/QWVT3mbIjNtsKLPYtnxbHrXbgr/h9zH0X1ffdiBKO5KLM4T2EwWevhOI3lDglj+7JJHgkKKp99M8KIZ4zbwOgNg3tuOSIkbYcgrRqlQfQz4shzF6oee23P+moYOcufuNaUyn++NM0PAvai/SSPV appuser_web"
