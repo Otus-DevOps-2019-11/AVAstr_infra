@@ -1,5 +1,14 @@
-[app]
-appserver ansible_host=35.190.218.243
-
-[db]
-dbserver ansible_host=34.76.64.89
+#[app]
+#appserver ansible_host=35.190.218.243
+#
+#[db]
+#dbserver ansible_host=34.76.64.89
+#
+{
+    "db":  {
+      "hosts": "35.190.218.243"
+    },
+    "app":  {
+      "hosts": "34.76.64.89"
+    }
+}

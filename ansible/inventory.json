@@ -1,12 +1,5 @@
-{
-  "type": "service_account",
-  "project_id": "infra-262607",
-  "private_key_id": "faf0cd8ecb4e569401a34817a450a6d2ea98b26c",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDLDSpbdDlAUzSa\nvKA9wFVlNy4M6pAhK0/yI2kXFRsA9o1Fm7qmfIQjkkOZLGsqFs64Md5e+hlz+kt9\nT9qjbgQn1Vc/3wxz61oHa88EtgbpyrWba1f8YACcRzTqALRVTdWHcRLmOsD08bW8\njAoHtXhyIMW+/p+Jw2gCxAzkA+a8MWlQ/ckuop2x63/xmEVBESc40ZWms+pXC3DU\nGqpO7pjv0c6hGuiv553T7oG8y8l4JMHbcLE8pNAL04gr1ObdQX7R8GEVp0jhJGqS\nLyJ6ZMtECgATr/TEXhlCA6WB3kjG8mxU7N/iZn3PtQo+J+V4D9rlzPygs1r1lIqW\nEsNbGDhlAgMBAAECggEABSDO0414DrBV8UcsnYf4gCcTHNS7EXi4ZatQRvrLpPa/\nyE9vuNmx3/tx2pynvjc3lFOqGT2kG+zpMCqD9pcGOC1SrUnIVOXPmcVhbpiG9yud\nR5C/9vSZFK6rCZ09RgmXss/VGYcdWB0B/oI46fXtgKW5k3fMdrG+iZIC/f/n5BPT\nMzB21BH+s/Mjcyu8bKsR1O2vhWlmHouo6jSkUg4ixBz+fbnvKqEK4T7+e7IGMtq1\n0IdAIsodQ+/aMxBXQHV0Nhpoda5EsHhOElZCWhzzE+Rzvb9W/DogDVAbUpM4u2rI\ncfHU5xnzQGBpsHgW23LcYF1mTtsaDviYT+/x0ZTuYQKBgQDtBV6GlQhkiUy80UPo\n3Z4g734i7csgl68Ild3GNDDJzJBdioJusn5x/ESpjarTNJdfHEzHNlFne7GkFzdC\nI1crOaltNte6J+gTGGd/lqVrEZMaaGx+M1CXxk0Ixc1cf8dHjKaq65/ovVmxwsNR\npgnoNCEynNlzNv4L0vD0AFiNcQKBgQDbT3ahqdgS3H8zKR3nPizopGWAHJrOI2nK\nwtswWcZrubt72ufWXjM+GZ9rp98DRlMaBCM38ewvdQWKO1qL4a8+Pe7cJBeZ2ToX\ntICQMdVpgGl/bcvrxKsyiQQUXgwh39/Q+BM961PKWwZluWxCo9jdInVEmdCjcpjF\nd0eWJjnwNQKBgQDsPHXCXbhHvDEn4Mt2xaxd11Y5KhlTGtvyCq1IZ6xY9fLNyMfH\n3U/5/B3TgMfKSpi0y1gbFiB8q+SaUClbWi3/fzFHEWpiuHOu1JwTpuqolJOxtnKs\nNikVnSgankvY7eKJhb54jPCM4G0Np7lVH9CwB4UvFPYGx8DduBlAmTepgQKBgEv+\nE/hetv2KJBVhOPho5fzTAkzLHKUzRjQ5IuR1JzkqyZlYOB9i0tTA4inWqIMk+iS4\nrE91Z8bmAL5uZKi10hh6M2taokbwK54NMMNGUVHWajf6nr+ajUvciGpaUE/omFB7\ntYcuJQGoWuYiwy2wQrQVfZcAyXfpfKBn/Yk8w7TFAoGBANZ4wgCPr8E/oSL04LLS\nMFKHi36A21xU2bi3cp0G4quIXcGccWACDgCBvdNUsAOSZbPxee7Fb21UlcXrrgdX\n5tkgWKiSKm6kKGO0DvWE9QE5dXROdmBWr/IIFYUaLX25Dhv3fk27S3+VTLZmXdYX\nogJfd+PkupejrUMAruW2Be3E\n-----END PRIVATE KEY-----\n",
-  "client_email": "avastr@infra-262607.iam.gserviceaccount.com",
-  "client_id": "104173265510892297143",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/avastr%40infra-262607.iam.gserviceaccount.com"
-}
+[app]
+appserver ansible_host=35.190.218.243
+
+[db]
+dbserver ansible_host=34.76.64.89

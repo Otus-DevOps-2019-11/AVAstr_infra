@@ -4,4 +4,4 @@ projects:
 zones:
   - "europe-west1-b"
 auth_kind: serviceaccount
-service_account_file: "/home/avastr/git/AVAstr_infra/ansible/inventory.json"
+service_account_file: "/home/avastr/git/AVAstr_infra/ansible/cred.json"
