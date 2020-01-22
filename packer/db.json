@@ -3,7 +3,7 @@
         {
             "type": "googlecompute",
             "project_id": "{{user `project_id`}}",
-            "image_name": "reddit-db-base",
+            "image_name": "reddit-db-base-01",
             "image_family": "ubuntu-1604-lts",
             "source_image_family": "{{user `source_image_family`}}",
             "zone": "europe-west1-b",
@@ -17,10 +17,9 @@
 	}
     ],
     "provisioners": [
-        {
-            "type": "shell",
-            "script": "scripts/install_mongodb.sh",
-            "execute_command": "sudo {{.Path}}"
-        }
+	{
+            "type": "ansible",
+	    "playbook_file": "ansible/packer_db.yml"
+    	}
     ]
 }
