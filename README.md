@@ -57,3 +57,14 @@
    * Перенес terraform.tfstate файл в облачное хранилище (google_bucket) и протестировал его работу
    * При одновременном развертывании среды stage и prod происходят блокировки файла состояния
 </details>
+
+**<details><summary>10_Homework (Ansible-1)</summary>**
+**В рамках HW было изучено:**
+
+  * Работа с **`Ansible-1`**:
+   * Установил ansible
+   * Получил возможность управлять ВМ через ansible
+   * Создал inventory файлы (json, yml)
+   * После выполнения команды **`ansible app -m command -a 'rm -rf~/reddit'`** и **`ansible-playbook clone.yml`** происходит модификация, т.к. происходит восстановление удаленной директории
+
+</details>
