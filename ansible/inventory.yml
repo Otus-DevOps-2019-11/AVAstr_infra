@@ -12,4 +12,4 @@ app:
 db:
   hosts:
     dbserver:
-      ansible_host: 34.76.64.89
+      ansible_host: 34.76.129.137
