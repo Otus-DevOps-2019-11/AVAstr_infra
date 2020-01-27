@@ -1,4 +1,7 @@
 {
 	"project_id": "infra-262607",
-        "source_image_family": "ubuntu-1604-lts"
+        "source_image_family": "ubuntu-1604-lts",
+        "machine_type": "g1-small"
+}
+
 }
