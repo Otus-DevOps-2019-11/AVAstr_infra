@@ -21,7 +21,7 @@ module "db" {
 
 module "vpc" {
   source        = "../modules/vpc"
-  source_ranges = ["178.252.127.229/32"]
+  source_ranges = ["0.0.0.0/0"]
 }
 
 #resource "google_compute_instance" "app" {

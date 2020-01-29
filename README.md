@@ -80,3 +80,14 @@
    * Все окружение разворачивается playbook'ом site.yml
 
 </details>
+
+**<details><summary>12_Homework (Ansible-3)</summary>**
+**В рамках HW было изучено:**
+
+  * Работа с **`Ansible-3`**:
+   * Разнес плейбуки по ролям
+   * Разделил окружение на два
+   * Использовал ansible galaxy и роль nginx
+   * Зашифровал файл с пользовательскими данными через Ansible Vault
+
+</details>

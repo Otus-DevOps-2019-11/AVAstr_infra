@@ -7,3 +7,5 @@ variables.json
 .terraform/
 *.retry
 cred.json
+jdauphant.nginx
+vault.key
