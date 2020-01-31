@@ -92,3 +92,13 @@
    * Зашифровал файл с пользовательскими данными через Ansible Vault
 
 </details>
+
+**<details><summary>13_Homework (Ansible-4)</summary>**
+**В рамках HW было изучено:**
+
+  * Работа с **`Ansible-4`**:
+   * Использовал Vagrant
+   * Тестировал роли через Molecule и Testinfra
+   * Создал тестовую ВМ через Molecule
+
+</details>
